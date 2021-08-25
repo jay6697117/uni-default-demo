@@ -1,7 +1,9 @@
 const home = {
   state: {
     userInfo: {
-      userName: ''
+      userName: '',
+      userAge: '',
+      userHeight: ''
     }
   },
   mutations: {

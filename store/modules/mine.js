@@ -1,5 +1,11 @@
 const mine = {
-  state: {},
+  state: {
+    mineInfo: {
+      name: 'zjh',
+      pws: '123',
+      token: 'ddsdsdsdsdsdsds'
+    }
+  },
   getters: {},
   mutations: {},
   actions: {},
