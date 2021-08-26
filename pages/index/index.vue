@@ -43,7 +43,7 @@
           userAge: '34',
           userHeight: '178cm'
         });
-      }, 2000)
+      }, 5000)
 
     },
     methods: {
