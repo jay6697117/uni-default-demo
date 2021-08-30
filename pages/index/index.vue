@@ -35,7 +35,7 @@
           userAge: '3',
           userHeight: '30cm'
         });
-      }, 0)
+      }, 5000)
 
       setTimeout(() => {
         this.$store.dispatch('setUserInfo', {
@@ -43,7 +43,7 @@
           userAge: '34',
           userHeight: '178cm'
         });
-      }, 5000)
+      }, 10000)
 
     },
     methods: {
