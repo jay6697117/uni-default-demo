@@ -1,4 +1,5 @@
 const mine = {
+  namespaced: true,
   state: {
     mineInfo: {
       name: 'zjh',
@@ -8,7 +9,7 @@ const mine = {
   },
   getters: {},
   mutations: {},
-  actions: {},
+  actions: {}
 };
 
 export default mine;

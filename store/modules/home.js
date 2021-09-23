@@ -1,4 +1,5 @@
 const home = {
+  namespaced: true,
   state: {
     userInfo: {
       userName: '',
@@ -8,15 +9,13 @@ const home = {
   },
   mutations: {
     SET_USER_INFO: (state, userInfo) => {
-      state.userInfo = userInfo
+      state.userInfo = userInfo;
     }
   },
   actions: {
     // 缓存用户信息
-    setUserInfo({
-      commit
-    }, userInfo) {
-      commit('SET_USER_INFO', userInfo)
+    setUserInfo({ commit }, userInfo) {
+      commit('SET_USER_INFO', userInfo);
     }
   },
   getters: {
@@ -24,4 +23,4 @@ const home = {
   }
 };
 
-export default home
+export default home;
